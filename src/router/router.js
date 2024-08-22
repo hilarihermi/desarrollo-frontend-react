@@ -5,7 +5,8 @@ import Product from "../screens/Product";
 import LoginForm from "../screens/Forms/LoginForm";
 
 import App from "../App";
-//import { Children } from "react";
+
+const basename = process.env.NODE_ENV == 'production'? '/desarrollo-frontend-react':'/';
 
 const routes = createBrowserRouter([
     {
@@ -28,5 +29,9 @@ const routes = createBrowserRouter([
         ]
 
     }
-]);
+],
+    {
+        basename: basename
+    }
+);
 export default routes;
