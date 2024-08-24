@@ -19,7 +19,7 @@ const LoginForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(values);
-        if (values.password === 'aaaa') {
+        if (values.password === 'mod7ReactUSIP') {
             console.log('Login exitoso');
             dispatch(saveFormData(values));
         } else {
