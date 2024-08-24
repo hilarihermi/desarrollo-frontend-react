@@ -17,7 +17,15 @@ const useForm = (initialValues) => {
         setValue(initialValues);
     };
 
-    return [values, handleChange, resetForm]; //aca retornar limpiar camposs
+    const clearForm = () => {
+        const clearedValues = Object.keys(initialValues).reduce((acc, key) => {
+            acc[key] = '';
+            return acc;
+        }, {});
+        setValue(clearedValues);
+    };
+
+    return [values, handleChange, resetForm,clearForm]; 
 }
 
 export default useForm;
