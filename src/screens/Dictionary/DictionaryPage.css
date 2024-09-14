@@ -103,3 +103,12 @@ h2 span {
   color: red;
   margin-top: 10px;
 }
+
+a {
+  color: rgb(54, 34, 239); 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}

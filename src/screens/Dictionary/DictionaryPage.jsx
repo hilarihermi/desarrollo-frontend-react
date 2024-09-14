@@ -27,9 +27,10 @@ const DictionaryPage = () => {
     <div className="dictionary-container">
       <h1>DICTIONARY USIP</h1>
       <h2><small>Este </small> modulo(diccionario) <small> corresponde </small> al recuperatorio del{' '}</h2>
-      <h2>
-          <span>modulo-7</span> ReactJS URL:
-      </h2>
+      <span style={{ color: 'red' }}>modulo-7</span> ReactJS URL: 
+          <a href="https://github.com/hilarihermi/desarrollo-frontend-react" target="_blank" rel="noopener noreferrer">
+            https://github.com/hilarihermi/desarrollo-frontend-react
+          </a>
       <div className="button-container">
         <button onClick={() => setShowAddWordModal(true)}>Agregar Palabra</button> 
         <button onClick={openDeleteWordModal}>Eliminar Palabra</button> 
