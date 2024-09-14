@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 const Navbar = () => {
     const formData = useSelector(state => state.form.formData);
-    const { username, email } = formData;
+    const { username, email } = formData || {};
     return (
         <nav>
             <ul>
@@ -18,6 +18,9 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="/login">LoginForm</Link>
+                </li>
+                <li>
+                    <Link to="/dictionary">Dictionary</Link>
                 </li>
                 <li>
                     {username && email && (
