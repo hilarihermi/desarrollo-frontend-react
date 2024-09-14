@@ -28,8 +28,8 @@ const DictionaryPage = () => {
       <h1>DICTIONARY USIP</h1>
       <h2><small>Este </small> modulo(diccionario) <small> corresponde </small> al recuperatorio del{' '}</h2>
       <span style={{ color: 'red' }}>modulo-7</span> ReactJS URL: 
-          <a href="https://github.com/hilarihermi/desarrollo-frontend-react" target="_blank" rel="noopener noreferrer" className="dictionary-link">
-            https://github.com/hilarihermi/desarrollo-frontend-react
+          <a href="https://hilarihermi.github.io/desarrollo-frontend-react/" target="_blank" rel="noopener noreferrer" className="dictionary-link">
+          https://hilarihermi.github.io/desarrollo-frontend-react/
           </a>
       <div className="button-container">
         <button onClick={() => setShowAddWordModal(true)}>Agregar Palabra</button> 
