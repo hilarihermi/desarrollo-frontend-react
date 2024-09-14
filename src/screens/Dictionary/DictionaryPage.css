@@ -106,9 +106,9 @@ h2 span {
 
 .dictionary-link {
   color: blue;
-  text-decoration: none; /* Opcional: para quitar el subrayado */
+  text-decoration: none; 
 }
 
 .dictionary-link:hover {
-  text-decoration: underline; /* Opcional: para agregar subrayado al pasar el cursor */
+  text-decoration: underline;
 }
