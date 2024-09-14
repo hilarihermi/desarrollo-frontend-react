@@ -104,11 +104,11 @@ h2 span {
   margin-top: 10px;
 }
 
-a {
-  color: rgb(54, 34, 239); 
-  text-decoration: none; 
+.dictionary-link {
+  color: blue;
+  text-decoration: none; /* Opcional: para quitar el subrayado */
 }
 
-a:hover {
-  text-decoration: underline; 
+.dictionary-link:hover {
+  text-decoration: underline; /* Opcional: para agregar subrayado al pasar el cursor */
 }
